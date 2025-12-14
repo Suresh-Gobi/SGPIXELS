@@ -50,7 +50,9 @@ const Header: React.FC = () => {
           ))}
         </nav>
         <div className='flex items-center gap-4'>
-          
+          <Link href="/contact" className="btn btn-primary">
+            Contact
+          </Link>
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
             className='block lg:hidden p-2 rounded-lg'
