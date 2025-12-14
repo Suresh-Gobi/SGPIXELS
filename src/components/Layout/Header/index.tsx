@@ -41,7 +41,7 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed h-24 top-0 py-1 z-50 w-full transition-all shadow-lg bg-white`}>
+      className={`h-24 py-1 w-full transition-all bg-white`}>
       <div className='container mx-auto max-w-6xl flex items-center justify-between p-6'>
         <Logo />
         <nav className='hidden lg:flex grow items-center justify-center gap-6'>
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
           ))}
         </nav>
         <div className='flex items-center gap-4'>
-          <Link href="/contact" className="btn btn-primary">
+          <Link href="/contact" className='py-3 bg-primary text-white rounded-md hover:bg-primary/90 transition duration-300 px-8'>
             Contact
           </Link>
           <button

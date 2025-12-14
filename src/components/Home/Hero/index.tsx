@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <section className='relative md:pt-44 pt-28 bg-white  dark:bg-darklight bg-cover text-white'>
+    <section className='relative pt-12 bg-white  dark:bg-darklight bg-cover text-white'>
       <div className='container mx-auto max-w-6xl px-4 grid grid-cols-12 gap-4 relative z-10'>
         <div
           className='md:col-span-6 col-span-12 p-4 md:px-4 px-0 space-y-4 flex flex-col items-start justify-center'
@@ -19,10 +19,10 @@ const Hero = () => {
             </span>
           </div>
           <h1 className='text-midnight_text font-bold dark:text-white text-4xl  md:text-5xl md:leading-[1.15]'>
-            Unveiling My Professional Odyssey: Portfolio Highlights
+            SG Pixels
           </h1>
           <p className='text-grey dark:text-white/70 text-xl font-semibold'>
-            A brief introduction about myself and my professional objectives.
+            Your all-in-one solution for stunning websites and powerful branding.
           </p>
           <a
             href='#learn-more'
