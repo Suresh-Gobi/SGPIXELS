@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? `/Kevin-Flood` : "";
+const basePath = isProd ? `/SGPIXELS` : "";
 
 const nextConfig = {
   output: "export",
