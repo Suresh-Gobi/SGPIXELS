@@ -40,7 +40,7 @@
   --z-index-2: 2;
   --z-index-999: 999;
 
-  --color-primary: #2f73f2;
+  --color-primary: #D43D3D;
   --color-secondary: #547593;
   --color-midnight_text: #102d47;
   --color-grey: #668199;
@@ -112,7 +112,7 @@ body {
   @apply mb-8;
 }
 
-.blog-details hr {
+.blog-.blog-details hr {
   @apply border-border dark:border-dark_border;
 }
 

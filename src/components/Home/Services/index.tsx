@@ -23,7 +23,7 @@ const Services = () => {
           data-aos='fade-up'
           data-aos-delay='200'
           data-aos-duration='1000'>
-          Services specifically designed to meet your business needs
+          Services specifically designed to meet your business needs
         </h2>
         <div className='grid md:grid-cols-12 sm:grid-cols-8 grid-cols-1 gap-7'>
           {Servicebox.map((item, index) => (
@@ -49,7 +49,7 @@ const Services = () => {
               </p>
               <Link
                 href='#'
-                className='hover:text-blue-700 text-lg font-medium text-primary group flex items-center'>
+                className='hover:text-primary/90 text-lg font-medium text-primary group flex items-center'>
                 Get Started
                 <span>
                   <Icon

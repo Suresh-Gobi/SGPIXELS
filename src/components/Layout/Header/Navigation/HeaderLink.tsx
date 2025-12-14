@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import { useState } from 'react';
 import Link from 'next/link';
 import { HeaderItem } from '../../../../types/menu';
@@ -44,7 +44,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
               className={`block px-4 py-2 text-[15px]  ${
                 path === subItem.href
                   ? "bg-primary text-white"
-                  : "text-black hover:bg-gray-200 dark:hover:bg-midnight_text dark:text-white hover:text-dark dark:hover:text-white"
+                  : "text-black hover:bg-primary hover:text-white dark:hover:bg-primary dark:text-white"
               }`}
             >
               {subItem.label}

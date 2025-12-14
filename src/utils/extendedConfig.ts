@@ -43,14 +43,13 @@ export const extendedConfig = {
         '999': '999'
       },
       colors: {
-        primary: "#FFFFFF",
+        primary: "#D43D3D",
         secondary: "#E5E5E5",
         midnight_text: "#333333",
         grey: "#888888",
         border: "#DDDDDD",
         success: "#4CAF50",
         section: "#F5F5F5",
-        SkyBlueMist: "#E3F2FD",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

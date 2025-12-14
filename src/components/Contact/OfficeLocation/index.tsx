@@ -18,7 +18,7 @@ const Location = () => {
                 </h2>
               </div>
               <div className='col-span-3'>
-                <p className='sm:text-2xl text-xl text-IceBlue font-normal max-w-64 leading-7 text-white/50'>
+                <p className='sm:text-2xl text-xl text-white/50 font-normal max-w-64 leading-7'>
                   4292 Mapleview Drive Greenfield Zip code 38230
                 </p>
               </div>
@@ -55,7 +55,7 @@ const Location = () => {
                 </Link>
                 <Link
                   href='tel:731-235-7993'
-                  className='sm:text-2xl text-white/80 text-xl text-IceBlue flex items-center gap-2 hover:text-opacity-100 w-fit'>
+                  className='sm:text-2xl text-white/80 text-xl flex items-center gap-2 hover:text-opacity-100 w-fit'>
                   <span className='text-white/40!'>Call</span>
                   731-235-7993
                 </Link>
